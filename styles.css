@@ -1,6 +1,8 @@
 
 body{
     background-color: peachpuff;
+    padding: 0;
+    margin: 0;
 }
 h1{
     color: violet;
@@ -8,8 +10,8 @@ h1{
     position: center;
 }
 
-li{
-    list-style-type: square;
+#language-container {
+    list-style-type: circle;
 }
 
 .contacts{
@@ -72,4 +74,37 @@ footer{
 .projects{
     display: flex;
     justify-content: left;
+}
+
+#navigation{
+    list-style-type: none;
+    position: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    padding: 1rem;
+    width: 100%;
+}
+
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10 16px;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.active{
+    background-color: aqua;
+    color: black;
+}
+
+li a:hover{
+    background-color: palevioletred;
+    color: black;
 }
