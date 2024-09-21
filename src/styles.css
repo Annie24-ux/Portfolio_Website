@@ -1,9 +1,9 @@
-
 body{
     background-color: peachpuff;
     padding: 0;
     margin: 0;
 }
+
 h1{
     color: violet;
     text-align: center;
@@ -37,13 +37,12 @@ h1{
     font-size: 20px;
 }
 
-img{
+#headshot{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 4px;
-    /* justify-content: center;
-    border-radius: 3px; */
+    border-radius: 50%;
+    
 }
 
 .info-section{
