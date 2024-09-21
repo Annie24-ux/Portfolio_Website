@@ -19,6 +19,10 @@ h1{
     justify-content: center;
 }
 
+.email, .profile, .whatsApp{
+    padding: 10px 12px 10px 12px;
+}
+
 #wavy-hand{
     text-align: center;
 }
@@ -68,7 +72,7 @@ footer{
     text-align: center;
     font-size: medium;
     font-weight: 200;
-    color: brown;
+    color: black;
 }
 
 .projects{
@@ -108,4 +112,12 @@ li a {
 li a:hover{
     background-color: palevioletred;
     color: black;
+}
+
+.certs {
+    list-style: disc;
+}
+
+#deets, #courses, #me, #edu{
+    text-align: center;
 }
