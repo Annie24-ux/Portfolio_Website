@@ -90,8 +90,13 @@ footer{
 }
 
 .projects{
-    display: flex;
-    justify-content: left;
+    display: grid;
+    padding: 10px 20px;
+    margin: 5px 7px;
+    justify-content: center;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
 }
 
 #navigation{
@@ -145,7 +150,7 @@ li a:hover{
     background-color: #eaffe1;
 }
 
-#project1, #project2, #project3 {
+#project1, #project2, #project3, #project4 {
     margin: 20px;
     padding: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); }
@@ -166,7 +171,8 @@ li a:hover{
 .langauges{
     color:green;
     text-align: center;
-    border: 2px 5px solid;
+    border: 10px 5px solid;
+    background-color: #CDC1FF;
 }
 
 #skills img{
@@ -174,3 +180,7 @@ li a:hover{
     height: 50px;
     margin: 10px 12px;
 }
+
+div #skills{
+    background-color: aquamarine;
+} 
