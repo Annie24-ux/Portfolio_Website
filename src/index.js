@@ -26,3 +26,8 @@ window.addEventListener('scroll',() => {
 
 });
 
+//To change routes for navigation
+// add.route('/');
+// add.route('/about');
+// add.route('/contacts');
+// add.route('/projects');
