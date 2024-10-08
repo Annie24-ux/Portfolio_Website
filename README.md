@@ -8,3 +8,5 @@ I also shared the tech-stacks that I am familiar with. I have also enlisted my c
 
 
 To achieve this Single page application, I made use ofJavaScript, Html and Css.
+
+The landing page includes link to navigate to About page, contacts and projects
