@@ -31,3 +31,4 @@ window.addEventListener('scroll',() => {
 // add.route('/about');
 // add.route('/contacts');
 // add.route('/projects');
+//navigating to home page.. '/index'
