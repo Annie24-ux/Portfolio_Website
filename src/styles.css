@@ -186,3 +186,21 @@ li a:hover{
 div #skills{
     background-color: aquamarine;
 } 
+
+#p-header {
+    animation-duration: 8s;
+    animation-name: slide-in;
+    animation-timing-function: ease;
+    text-align: center; 
+}
+
+@keyframes slide-in {
+    from {
+        transform: translateX(50px) scale(1.2); 
+    }
+    to {
+        transform: translateX(0) scale(1); 
+    }
+}
+
+  
