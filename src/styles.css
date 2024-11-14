@@ -170,7 +170,7 @@ li a:hover{
     color:green;
     text-align: center;
     border: 10px 5px solid;
-    background-color: #CDC1FF;
+    /* background-color: #CDC1FF; */
 }
 
 #skills img, #github{
@@ -192,6 +192,7 @@ div #skills{
     animation-name: slide-in;
     animation-timing-function: ease;
     text-align: center; 
+    color: #00B0FF;
 }
 
 @keyframes slide-in {
@@ -201,6 +202,12 @@ div #skills{
     to {
         transform: translateX(0) scale(1); 
     }
+}
+
+#abt-me{
+    display: flexbox;
+    justify-content: space-between;
+
 }
 
   
