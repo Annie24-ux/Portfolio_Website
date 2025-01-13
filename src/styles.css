@@ -5,10 +5,28 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Poppins', sans-serif; 
+}
+
+p{
+    font-family: 'Roboto', sans-serif; 
+    line-height: 1.5; 
 }
 
 html{
     scroll-behavior: smooth;
+    margin-left: 20px;
+}
+
+button{
+    background-color: palevioletred;
+    color: #0a0606;
+    padding: 10px 15px;
+    border-radius: 5px solid black;
 }
 
 h1{
@@ -19,9 +37,6 @@ h1{
 h1, h2, h3, p {
     margin: 20px 0;
 }
-
-
-
 
 #language-container {
     list-style-type: circle;
@@ -54,27 +69,23 @@ h1, h2, h3, p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 50%;
-    
+    /* border-radius: 50%; */
+    width: 350px; 
+    height: 350px;
+    padding: 20px 30px;
 }
 
 .info-section{
     position: relative;
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;  
 }
-#project1{
+/* #project1, #project2, #project3, #project4, #project5{
     margin: 20px;
     padding: 10px;
     box-shadow: 5px;
-}
+} */
 
-#project2{
-    margin: 20px;
-    padding: 10px;
-    box-shadow: 5px;
-}
 
 .projects-done{
     text-align: center;
@@ -101,15 +112,15 @@ footer{
     list-style-type: none;
     position: fixed;
     margin: 0;
+    top: 0;
     display: flex;
     justify-content: space-evenly;
     overflow: hidden;
     padding: 1rem;
     width: 100%;
     background-color: black;
+    align-items: center; 
 }
-
-
 
 li a {
     display: block;
@@ -127,14 +138,26 @@ li a {
     background-color: #00B0FF;
     color: #212121; 
     border-radius: 5px;
+    font-weight: bold; 
+    border-bottom: 2px solid #00B0FF; 
     padding: 10px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
 }
 
 
 li a:hover{
     background-color: #00FFB3;
     color: black;
+    opacity: 0.8;
+    transform: scale(1.05);
 }
+
+
 
 .certs {
     list-style: disc;
@@ -148,7 +171,7 @@ li a:hover{
     background-color: #eaffe1;
 }
 
-#project1, #project2, #project3, #project4 {
+#project1, #project2, #project3, #project4, #project5 {
     margin: 20px;
     padding: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); }
@@ -177,6 +200,11 @@ li a:hover{
     width: 50px;
     height: 50px;
     margin: 10px 12px;
+}
+
+form{
+    border-radius:3px grey;
+    align-content: center;
 }
 
 #github{
@@ -217,4 +245,64 @@ div #skills{
 
 }
 
+/* hero-section   */
+.hero {
+    /* background-image: url('media/file.png'); Replace with your image */
+    background-size: cover;
+    background-position: center center;
+    color: #0a0606; /* Text color */
+    text-align: center;
+    padding: 100px 0; /* Adjust padding as needed */
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .name {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .typewriter {
+    overflow: hidden; /* Hide overflowing text */
+    border-right: 3px solid white; /* Create a "cursor" effect */
+    white-space: nowrap; /* Prevent line breaks */
+    margin: 0 auto;
+    letter-spacing: .15em; /* Adjust spacing between letters */
+    animation: 
+      typing 3s steps(30) 
+      infinite, 
+      blink 0.5s infinite; 
+  }
+  
+  @keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+  }
+  
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+  
+  .is-typing {
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden; /* Hide overflowing text */
+    animation: 
+      typing 3s steps(30) 
+      infinite, 
+      blink 0.5s infinite; 
+  }
   

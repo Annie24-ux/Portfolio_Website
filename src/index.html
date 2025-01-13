@@ -8,6 +8,10 @@
 
     <link rel="stylesheet" href="styles.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -24,53 +28,32 @@
 
 <br>
 <br>
-    
+
+
+<section class="hero" id="about">
+    <div class="hero-content">
+      <h1 class="name">Siphesihle Sibiya</h1>
+      <h2 class="title">Aspiring Software developer</h2>
+      <p class="tagline">Eager to Learn & Contribute</p>
+      <div class="typewriter">
+        <span>I am a </span>
+        <span class="is-typing">Software Developer Seeking Entry-Level Position</span>
+      </div>
+      <img id="headshot" src="media/file.png" alt="profile-pucture">
+      <br>
+      <p>Hi, I'm Siphesihle Sibiya, a recent alumni of WeThinkCode's System's Development program.
+         With a background in Hydrology and Water Resources Management, I'm eager to 
+         leverage my technical skills to address real-world challenges. I have a keen interest 
+         in both frontend and backend development, and I'm passionate about building user-friendly and 
+         impactful web applications. I'm a highly motivated and results-oriented individual with a
+          strong work ethic. Outside of coding, I find inspiration in nature through hiking, camping, 
+          and fitness. I'm always open to collaborating on projects or discussing exciting opportunities.</p>
+    </div>
+  </section>
     
     <br>
-    <section id="about_me">
-        <div id="abt-me" class="flex-container">
-            <div id="abt-1">
-                <header>
-                    <h1>Sibiya Siphesihle</h1>
-                    <!-- <h4 class="se">Software Engineer</h4> -->
-                </header>
+   
         
-                <img id="headshot" src="media/headshot.jpg" alt="profile-pucture">
-                <br>
-                <br>
-                <h3 id="p-header">Aspiring Software Developer</h3>
-
-            </div>
-                <h3 id="wavy-hand">👋🏾 Hello there !                                                                                                                                                       </h3>
-
-                <h2 id="me">About Me</h2>
-                <div>
-                     <p class="intro">
-                     Hi, I'm Siphesihle Sibiya, and I hold a BSc (Hons) in Hydrology and 
-                        Water Resources Management. Currently, I'm in my final year of studying 
-                        Systems Development, with a strong passion for software engineering. 
-                        I am particularly interested in both frontend and backend development, and
-                         I enjoy building user-friendly websites that solve real-world problems.
-                        As someone who thrives on learning and embracing new challenges, I'm 
-                        constantly looking to expand my knowledge and skills. My goal is to 
-                        create innovative, efficient solutions in tech while continuing to 
-                        grow and evolve as a developer. Outside of tech, I am a nature enthusiast
-                         who enjoys hiking, camping, and working out. These activities not only help 
-                         me stay balanced but also inspire my creativity. Feel free to reach out 
-                         if you'd like to collaborate, discuss projects, or learn more about my work!
-                    </p>
-
-                </div>
-               
-            </div>
-
-        </div>
-        
-
-
-    </section>
-    
-
 
     <section id="projects_section">
         <h2 class="projects-done">Projects</h2>
@@ -89,12 +72,27 @@
             <p>Langauges used: JavaScript, Html, Css</p>
         </div>
 
-        
-        <!-- <div id="project3">
-        <a href="https://github.com/Annie24-ux/Number_guess_game.git" target="_blank">Number Generator game</a>
-        <p>I made use of the python Random library for the generation of random numbers</p>
-      9  <p>Langauges used: Python</p>
-        </div> -->
+        <div id="project1">
+            <a href="https://github.com/Annie24-ux/PowerPulse.git" target="_blank">PowerPulse</a>
+            <p>An app that reports on the loadshedding schedule's and stages</p>
+            <p>Deployed on <a href="https://powerpulse.netlify.app" target="_blank">Netlify</a></p>
+            <p>Langauges used: Java, JavaScript, Html, Css</p>
+        </div>
+
+
+        <div id="project3">
+            <a href="https://github.com/Annie24-ux/Task-Manager.git" target="_blank">Task Manager App</a>
+            <p>An app that helps you manage your daily tasks.</p>
+            <p>Deployed on <a href="https://skysnap123.netlify.app" target="_blank">Netlify</a></p>
+            <p>Langauges used: Java, JavaScript, SQLite, Html, Css</p>
+        </div>
+
+        <div id="project5">
+            <a href="https://github.com/Annie24-ux/ai-text-summarizer-app.git" target="_blank">AI Text Summarizer</a>
+            <p>I developed a website that summarises text with a word & character count, lets user listen to the audio as well.</p>
+            <p>Deployed on <a href="https://summarizer.netlify.app" target="_blank">Netlify</a></p>
+            <p>Langauges used: JavaScript, Node.js, Html, Css</p>
+        </div>
 
         <div id="project4">
             <a href="https://github.com/Annie24-ux/Weather-App.git" target="_blank">Weather App</a>
@@ -174,10 +172,6 @@
     </section>
     
 
-    
-
-
-
     <section id="contacts_sec">
     <h2 id="deets">Contacts</h2> 
 
@@ -193,6 +187,26 @@
                 <a href="https://wa.me/+27764398418" target="_blank"><img src="media/whatsapp.png" alt="whatsApp-logo"></a>
             </div>
         </div>
+
+        <button id="connect">Get in touch!</button>
+        <button id="resume">Download Resume</button>
+
+        
+        <form>
+            <label for="name">Names</label>
+            <br>
+            <input type="text" id="name">
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" id="email">
+            <br>
+            <label for="number">Contact number</label>
+            <br>
+            <input type="number" id="number">
+            <br>
+            <button id="send">Send</button>
+        </form>
     </section>
 
     <br>
@@ -203,7 +217,7 @@
         <a href="https://github.com/Annie24-ux" target="_blank"><img id="github" src="media/github.png"></a>
         </div>
         
-        ©2024 by Siphesihle Sibiya</footer>
+        ©2024 by Siphesihle Sibiya  <p>Let's collaborate!</p></footer>
     </section>
 
 
