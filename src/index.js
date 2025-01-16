@@ -18,17 +18,8 @@ window.addEventListener('scroll',() => {
         if (link.getAttribute('href').subString(1) === currentSection){
             link.classList.add('active');
         }
-
-
     }
     
     );
 
 });
-
-//To change routes for navigation
-// add.route('/');
-// add.route('/about');
-// add.route('/contacts');
-// add.route('/projects');
-//navigating to home page.. '/index'
