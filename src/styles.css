@@ -349,3 +349,10 @@ div #skills{
 .text{
     text-align: center;
 }
+
+input{
+    border-color: green;
+}
+[required]:placeholder-shown{
+    border-color: red;
+}
