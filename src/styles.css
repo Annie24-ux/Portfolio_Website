@@ -17,6 +17,10 @@ p{
     line-height: 1.5; 
 }
 
+.langauge{
+    color:#212121;
+}
+
 html{
     scroll-behavior: smooth;
     margin-left: 20px;
@@ -26,11 +30,11 @@ button{
     background-color: #00B0FF;
     color: #0a0606;
     padding: 15px 10px;
-    border-radius:7px;
+    border-radius: 10px;
     cursor: pointer;
     display: inline-block;
     font-size: 16px;
-    margin:10px 20px;
+    margin: 10px 15px;
 }
 
 h1{
@@ -190,8 +194,10 @@ li a:hover{
 }
 
 .langauges{
+    color:green;
     text-align: center;
     border: 10px 5px solid;
+    /* background-color: #CDC1FF; */
 }
 
 #skills img, #github{
