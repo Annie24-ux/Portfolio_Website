@@ -25,8 +25,11 @@ html{
 button{
     background-color: #00B0FF;
     color: #0a0606;
-    padding: 10px 15px;
-    border-radius: 10px solid black;
+    padding: 15px 10px;
+    border-radius:10px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
 }
 
 h1{
