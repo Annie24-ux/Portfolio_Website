@@ -356,6 +356,9 @@ div #skills{
 
 input{
     border-color: green;
+    padding: 10px 15px;
+    border-radius: 3px;
+    margin: 10px 12px;
 }
 [required]:placeholder-shown{
     border-color: red;
