@@ -20,10 +20,3 @@ function setupCarousel(carouselId, prevBtnId, nextBtnId) {
 setupCarousel('frontendCarousel', 'frontendPrev', 'frontendNext');
 setupCarousel('backendCarousel', 'backendPrev', 'backendNext');
 
-
-//To change routes for navigation
-// add.route('/');
-// add.route('/about');
-// add.route('/contacts');
-// add.route('/projects');
-//navigating to home page.. '/index'
