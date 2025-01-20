@@ -367,3 +367,8 @@ input{
 label{
     margin: 10px 12px;
 }
+
+#message{
+    height: 211px;
+    width: 422px;
+}
