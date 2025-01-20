@@ -80,11 +80,7 @@ h1, h2, h3, p {
     display: flex;
     justify-content: space-evenly;  
 }
-/* #project1, #project2, #project3, #project4, #project5{
-    margin: 20px;
-    padding: 10px;
-    box-shadow: 5px;
-} */
+
 
 
 .projects-done{
