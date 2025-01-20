@@ -30,6 +30,7 @@ button{
     cursor: pointer;
     display: inline-block;
     font-size: 16px;
+    margin:10px 20px;
 }
 
 h1{
@@ -189,10 +190,8 @@ li a:hover{
 }
 
 .langauges{
-    color:green;
     text-align: center;
     border: 10px 5px solid;
-    /* background-color: #CDC1FF; */
 }
 
 #skills img, #github{
