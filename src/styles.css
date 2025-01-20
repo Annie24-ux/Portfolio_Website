@@ -363,3 +363,7 @@ input{
 [required]:placeholder-shown{
     border-color: red;
 }
+
+label{
+    margin: 10px 12px;
+}
