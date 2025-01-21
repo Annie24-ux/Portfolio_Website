@@ -197,22 +197,28 @@
         <button id="connect">Get in touch!</button>
 
         
-        <form id="contactForm">
+        <form id="contactForm" name="contact" action="/" method="POST" data-netlify="true" onsubmit="submit">
+            <input type="hidden" name="form-name" value="contact" />
+            <p class="hidden">
+            <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+            </p>
+            
             <label for="name">Names</label>
             <br>
-            <input type="text" placeholder="Lindiwe" id="name">
+            <input type="text" name="name" placeholder="Lindiwe" id="name">
             <br>
             <label for="email">Email</label>
             <br>
-            <input type="email" placeholder="lindiwedlamini@gmail.com" id="email">
+            <input type="email" name="email" placeholder="lindiwedlamini@gmail.com" id="email">
             <br>
             <label for="number">Contact number</label>
             <br>
-            <input type="number" id="number" placeholder="lindiwedlamini@gmail.com">
+            <input type="number" name="number" id="number" placeholder="lindiwedlamini@gmail.com">
             <br>
             <label for="message">Message</label>
             <br>
-            <input type="text" id="message" required>
+            <textarea type="text" name="message" id="message" placeholder="Your message..."
+            required></textarea>
             <br>
             <button id="send">Send</button>
         </form>
