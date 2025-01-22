@@ -194,10 +194,12 @@
                 <a href="https://wa.me/+27764398418" target="_blank"><img src="media/whatsapp.png" alt="whatsApp-logo"></a>
             </div>
         </div>
-        <button id="connect">Get in touch!</button>
+        <!-- <button id="connect">Get in touch!</button> -->
 
         
-        <form id="contactForm" name="contact" action="/" method="POST" data-netlify="true">
+        <form id="contactForm" name="contact" action="/" method="POST" 
+        onSubmit="submit" data-netlify="true" 
+        data-="bot-field" hidden>
             <input type="hidden" name="form-name" value="contact" />
             <p class="hidden">
             <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
