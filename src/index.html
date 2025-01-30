@@ -196,33 +196,29 @@
         </div>
 
         
-        <form id="contactForm" name="contact" action="/" method="POST" 
-        onSubmit="submit" data-netlify="true" 
-        data-="bot-fi6eld" hidden>
-            <input type="hidden" name="form-name" value="contact" />
-            <p class="hidden">
-            <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-            </p>
-            
-            <label for="name">Names</label>
-            <br>
-            <input type="text" name="name" placeholder="Lindiwe" id="name">
-            <br>
-            <label for="email">Email</label>
-            <br>
-            <input type="email" name="email" placeholder="lindiwedlamini@gmail.com" id="email">
-            <br>
-            <label for="number">Contact number</label>
-            <br>
-            <input type="number" name="number" id="number" placeholder="lindiwedlamini@gmail.com">
-            <br>
-            <label for="message">Message</label>
-            <br>
-            <textarea type="text" name="message" id="message" placeholder="Your message..."
-            required></textarea>
-            <br>
-            <button id="send">Send Message</button>
-        </form>
+        <form id="contactForm" name="contact" action="/success/" method="POST" 
+        data-netlify="true" data-netlify-honeypot="bot-field">
+      <input type="hidden" name="form-name" value="contact" />
+      
+      <p class="hidden">
+          <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+      </p>
+      
+      <label for="name">Names</label><br>
+      <input type="text" name="name" placeholder="Lindiwe" id="name"><br>
+      
+      <label for="email">Email</label><br>
+      <input type="email" name="email" placeholder="lindiwedlamini@gmail.com" id="email"><br>
+      
+      <label for="number">Contact number</label><br>
+      <input type="number" name="number" id="number" placeholder="0712345678"><br>
+      
+      <label for="message">Message</label><br>
+      <textarea name="message" id="message" placeholder="Your message..." required></textarea><br>
+      
+      <button type="submit" id="send">Send Message</button>
+  </form>
+  
     </section>
 
     <br>
