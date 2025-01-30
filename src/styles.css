@@ -209,6 +209,7 @@ li a:hover{
 form{
     border-radius:3px grey;
     align-content: center;
+    text-align: center;
 }
 
 #github{
@@ -375,4 +376,10 @@ label{
     padding: 10px 15px;
     margin: 10px 15px;
     border-radius: 5px;
+}
+
+#success{
+    text-align: center;
+    background-color: cadetblue;
+    font-size: 30px;
 }
