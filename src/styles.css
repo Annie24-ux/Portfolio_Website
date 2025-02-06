@@ -138,6 +138,17 @@ li a {
 
 }
 
+/* i a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    list-style: none;
+    transition: background-color 0.3s, color 0.3s;
+} */
+
 .active{
     background-color: #00B0FF;
     color: #212121; 
@@ -393,7 +404,18 @@ a:visited {
     color: green;
 }
 
-a{
+/* a{
     text-decoration: none;
-    color: #000957;
-}
+    /* color: #000957; */
+
+
+#project-link {
+    font-family: "Barriecito", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    margin-left: 135px;
+  }
+  
