@@ -182,9 +182,7 @@ li a:hover{
     text-align: center;
 }
 
-#contacts_sec{
-    background-color: #eaffe1;
-}
+
 
 #project1, #project2, #project3, #project4, #project5, #project6 {
     margin: 20px;
@@ -217,11 +215,11 @@ li a:hover{
     margin: 10px 12px;
 }
 
-form{
+/* form{
     border-radius:3px grey;
     align-content: center;
     text-align: center;
-}
+} */
 
 #github{
     justify-content: center;
@@ -421,7 +419,7 @@ a:visited {
   
 
 #contactForm {
-    background: #D1F8EF;
+    background: #A7B49E;
     display:flex;
     backdrop-filter: blur(5px);
     border-radius: 10px;
@@ -441,4 +439,5 @@ a:visited {
     color: Grey;
     font-weight: 800;
     padding: 15px;
+    margin: 25px;
 }
