@@ -419,3 +419,26 @@ a:visited {
     margin-left: 135px;
   }
   
+
+#contactForm {
+    background: #D1F8EF;
+    display:flex;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 2px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    width: 700px;
+    height: 700px; 
+    align-items: center;  
+    justify-content: center;
+    margin: 20px;
+   
+}
+
+
+
+#call {
+    color: Grey;
+    font-weight: 800;
+    padding: 15px;
+}
