@@ -428,11 +428,44 @@ a:visited {
    
 }
 
-
-
 #call {
     /* color: Grey; */
     font-weight: 800;
     padding: 15px;
     margin: 25px;
+}
+
+.about-div {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    gap: 20px; 
+    max-width: 800px; 
+    margin: auto; 
+    padding: 20px;
+}
+
+.description{
+    display: flex;
+    align-items: center; /* Aligns items vertically */
+    gap: 20px; /* Adds space between the image and text */
+    max-width: 400px; /* Controls the width of the section */
+    margin: auto; /* Centers the section on the page */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#image{
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0; 
+}
+
+@media (max-width: 768px) {
+    .about-div {
+        flex-direction: column;
+        text-align: center;
+    }
 }
