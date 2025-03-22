@@ -77,7 +77,6 @@ h1, h2, h3, p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* border-radius: 50%; */
     width: 350px; 
     height: 350px;
     padding: 20px 30px;
@@ -138,17 +137,6 @@ li a {
 
 }
 
-/* i a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    border-radius: 5px;
-    text-decoration: none;
-    list-style: none;
-    transition: background-color 0.3s, color 0.3s;
-} */
-
 .active{
     background-color: #00B0FF;
     color: #212121; 
@@ -188,9 +176,31 @@ li a:hover{
     margin: 20px;
     padding: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); }
+
+    #skills {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+        gap: 60px; 
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        max-width: 600px;
+        margin: auto; 
+    }
+    
+    .languages {
+        text-align: center;
+        padding: 8px;
+        border: 2px solid green; 
+        border-radius: 10px; 
+        background-color: #f3f3f3; 
+        min-width: 80px;
+        margin: 20px;
+    }
+    
  
 
-#skills{
+/* #skills{
     display: grid;
     padding: 10px 20px;
     margin: 5px 7px;
@@ -200,19 +210,20 @@ li a:hover{
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
 
-}
+}   
 
 .langauges{
     color:green;
     text-align: center;
-    border: 10px 5px solid;
-    /* background-color: #CDC1FF; */
-}
+    border: 5px 5px solid;
+} */
+
+
 
 #skills img, #github{
-    width: 50px;
-    height: 50px;
-    margin: 10px 12px;
+    width: 30px;
+    height: 30px;
+    margin: 5px 6px;
 }
 
 
@@ -446,15 +457,15 @@ a:visited {
 }
 
 .description{
-    display: flex;
-    align-items: center; /* Aligns items vertically */
-    gap: 20px; /* Adds space between the image and text */
-    max-width: 400px; /* Controls the width of the section */
-    margin: auto; /* Centers the section on the page */
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #333;
+    max-width: 500px;
+    padding: 20px;
+    /* border-radius: 10px; */
+    /* background: linear-gradient(135deg, #f9f9f9, #e3f2fd);  */
+    /* box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);  */
+    font-family: "Poppins", sans-serif;
+    line-height: 1.6;
 }
 
 #image{
