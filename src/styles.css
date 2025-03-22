@@ -408,9 +408,7 @@ a:visited {
     color: green;
 }
 
-/* a{
-    text-decoration: none;
-    /* color: #000957; */
+
 
 
 #project-link {
@@ -469,7 +467,7 @@ a:visited {
 }
 
 #image{
-    border-radius: 50%;
+    border-radius: 150px;
     object-fit: cover;
     flex-shrink: 0; 
 }
