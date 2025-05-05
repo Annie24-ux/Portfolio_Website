@@ -1,5 +1,5 @@
 # Portfolio_Website
-Personal website showcasing some of the projects I have worked on.
+Personal website showcasing some of the projects I have worked on and some that I may be currently working on .
 
 Welcome to my personal website!
 
