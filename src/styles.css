@@ -558,3 +558,7 @@ a:visited {
 h1, h2, h3 {
     margin: 20px 0;
 }
+
+a {
+    text-decoration: none;
+}
