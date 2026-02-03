@@ -377,7 +377,7 @@ p.in-progress {
     margin-bottom: 30px;
 }
 
-#Education, #University {
+#Education, #University, #bootcamp {
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
@@ -561,4 +561,8 @@ h1, h2, h3 {
 
 a {
     text-decoration: none;
+}
+
+#certs{
+    color: #0a0606;
 }
